@@ -1,0 +1,189 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 10; }
+
+.header-middle {
+  height: 70px;
+  width: 1200px;
+  margin: 0 auto; }
+
+.header-list {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 70px; }
+
+.span1, .span2 {
+  font-size: 12px;
+  line-height: 70px; }
+
+.span1 {
+  margin-right: 61px; }
+
+.header .icon-gouwuche {
+  font-size: 30px;
+  line-height: 70px;
+  margin-right: 10px; }
+
+.header .icon-yonghu {
+  font-size: 30px;
+  line-height: 70px;
+  margin-right: 10px; }
+
+.span2 {
+  margin-right: 40px; }
+
+form {
+  width: 348px;
+  height: 42px;
+  border: 1px solid #e5e5e5;
+  margin-right: 52px;
+  margin-top: 10px; }
+
+#btn1 {
+  width: 42px;
+  height: 42px;
+  background: transparent;
+  border: none;
+  outline: none; }
+
+.search {
+  width: 348px;
+  margin-top: 15px;
+  border: none;
+  text-indent: 1em;
+  outline: none; }
+
+#btn1 span {
+  font-size: 22px;
+  color: #313131; }
+
+.first {
+  height: 100px;
+  background: #fff;
+  margin-top: 70px; }
+
+.first-middle {
+  width: 1200px;
+  margin: auto; }
+
+.para {
+  line-height: 100px;
+  font-size: 14px; }
+
+.p-sp {
+  margin: 0 5px 0 5px; }
+
+.main-middle {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.main-middle ul {
+  width: 24%; }
+
+.main-para {
+  font-weight: bold; }
+
+.price {
+  font-weight: bold; }
+
+.main-middle img {
+  width: 100%; }
+
+.asd {
+  width: 200px;
+  height: 800px;
+  background: chartreuse; }
+
+.footer {
+  height: 417px;
+  background-color: #232323; }
+
+.footer-top {
+  height: 62px;
+  border-bottom: 1px solid #323232; }
+
+.top-middle {
+  height: 44px;
+  width: 1200px;
+  margin: auto;
+  padding: 8px 0 8px 0; }
+
+.top-middle .icon-LC_icon_gps_line_2 {
+  font-size: 40px;
+  color: #CF0A2C;
+  font-weight: bold; }
+
+.footer .icon-aite {
+  font-size: 35px;
+  font-weight: bold;
+  color: #CF0A2C;
+  margin-left: 220px; }
+
+.footer .span-wen {
+  color: #fff;
+  margin-left: 8px;
+  font-weight: normal; }
+
+.top-middle {
+  text-align: center; }
+
+.middle-middle {
+  width: 1200px;
+  margin: auto; }
+
+th {
+  width: 297px;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+  padding-bottom: 25px; }
+
+td {
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 5px; }
+
+.tab .icon-weixin {
+  font-size: 50px;
+  color: #fff; }
+
+.tab .icon-weibo {
+  font-size: 50px;
+  color: #fff; }
+
+.tab-p {
+  color: #fff; }
+
+.tab-p1 {
+  font-size: 12px;
+  color: #fff;
+  line-height: 22px; }
+
+table {
+  margin-left: 60px; }
+
+.bottom-middle {
+  width: 1200px;
+  margin: auto;
+  color: #fff;
+  font-size: 12px;
+  text-align: center; }
+
+.bottom-p {
+  color: #929092;
+  font-size: 14px; }
+
+.span-wen {
+  line-height: 44px; }
+
+.footer-bottom {
+  margin-top: 40px; }

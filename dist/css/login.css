@@ -1,0 +1,269 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 10; }
+
+.header-middle {
+  height: 70px;
+  width: 1200px;
+  margin: 0 auto; }
+
+.header-list {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 70px; }
+
+.span1, .span2 {
+  font-size: 12px;
+  line-height: 70px; }
+
+.span1 {
+  margin-right: 61px; }
+
+.header .icon-gouwuche {
+  font-size: 30px;
+  line-height: 70px;
+  margin-right: 10px; }
+
+.header .icon-yonghu {
+  font-size: 30px;
+  line-height: 70px;
+  margin-right: 10px; }
+
+.span2 {
+  margin-right: 40px; }
+.btn-span,.btn-span1{
+  width: 67px;
+  height: 32px;
+  float: right;
+  background: coral;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+}
+form {
+  width: 348px;
+  height: 42px;
+  border: 1px solid #e5e5e5;
+  margin-right: 52px;
+  margin-top: 10px; }
+
+#btn1 {
+  width: 42px;
+  height: 42px;
+  background: transparent;
+  border: none;
+  outline: none; }
+
+.search {
+  width: 348px;
+  margin-top: 15px;
+  border: none;
+  text-indent: 1em;
+  outline: none; }
+.btn-span1{
+  margin-top: 110px;
+}
+.title {
+  background: #EBEBEB;
+  height: 84px;
+  margin-top: 70px;
+  margin-bottom: 50px; }
+
+.title-middle {
+  width: 1200px;
+  margin: auto;
+  font-size: 28px;
+  line-height: 84px;
+  text-align: center;
+  font-weight: 100; }
+
+.main {
+  margin-bottom: 50px; }
+
+.main-middle {
+  width: 1200px;
+  margin: auto;
+ }
+.register{
+  margin: auto;
+}
+.login{
+  width: 540px;
+  margin: auto;
+}
+.login-top, .register {
+  background: #F1F1F1;
+  width: 540px;
+  padding: 15px; }
+
+.login-para {
+  font-size: 22px;
+  font-weight: 100;
+  border-bottom: 1px solid #666;
+  margin-bottom: 5px; }
+
+.username-re, .pwd, .username, .pwd-re, .pwd-again-re {
+  font-size: 12px;
+  font-weight: bold;
+  color: #6E6E6E;
+  margin-top: 8px; }
+
+.register-item {
+  width: 540px;
+  height: 35px;
+  margin-top: 3px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+  text-indent: 1em; }
+
+.login-item {
+  width: 540px;
+  height: 35px;
+  margin-top: 3px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+  text-indent: 1em; }
+
+#pwd-ipt {
+  margin-bottom: 50px; }
+
+#btn, #btn1 {
+  width: 67px;
+  height: 32px;
+  background: #CF0A2C;
+  border: none;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  outline: none;
+  font-weight: bold; }
+
+#btn1 {
+  width: 94px;
+  height: 32px;
+  margin-top: 110px; }
+
+#btn:hover {
+  background: #A1021E;
+  text-decoration: underline; }
+
+#btn1:hover {
+  background: #A1021E;
+  text-decoration: underline; }
+
+.login-para1 {
+  margin-top: 30px; }
+
+.why {
+  margin-bottom: 15px; }
+
+.login-para1 li {
+  font-size: 13px;
+  color: #9E9E9E;
+  line-height: 20px; }
+
+.footer {
+  height: 417px;
+  background-color: #232323; }
+
+.footer-top {
+  height: 62px;
+  border-bottom: 1px solid #323232; }
+
+.top-middle {
+  height: 44px;
+  width: 1200px;
+  margin: auto;
+  padding: 8px 0 8px 0; }
+
+.top-middle .icon-LC_icon_gps_line_2 {
+  font-size: 40px;
+  color: #CF0A2C;
+  font-weight: bold; }
+
+.footer .icon-aite {
+  font-size: 35px;
+  font-weight: bold;
+  color: #CF0A2C;
+  margin-left: 220px; }
+
+.footer .span-wen {
+  color: #fff;
+  margin-left: 8px;
+  font-weight: normal; }
+
+.top-middle {
+  text-align: center; }
+
+.middle-middle {
+  width: 1200px;
+  margin: auto; }
+
+th {
+  width: 297px;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px;
+  padding-bottom: 25px; }
+
+.span-wen {
+  line-height: 44px; }
+
+td {
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 5px; }
+
+.tab .icon-weixin {
+  font-size: 50px;
+  color: #fff; }
+
+.tab .icon-weibo {
+  font-size: 50px;
+  color: #fff; }
+
+.tab-p {
+  color: #fff; }
+
+.tab-p1 {
+  font-size: 12px;
+  color: #fff;
+  line-height: 22px; }
+
+table {
+  margin-left: 60px; }
+
+.footer-bottom {
+  margin-top: 40px; }
+
+.bottom-middle {
+  width: 1200px;
+  margin: auto;
+  color: #fff;
+  font-size: 12px;
+  text-align: center; }
+
+.bottom-p {
+  color: #929092;
+  font-size: 14px; }
+.alert{
+  color: rgb(44, 214, 44);
+}
+.b{
+  color: red
+}
+.aaa{
+  display: none;
+}
+.error{
+  color: orange;
+}

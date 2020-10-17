@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/public.css">
+    <script src="js/require.js" defer async = "true" data-main = "js/main4.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-middle">
+            <img class="fl" src="img/QQ截图20201004133308_02.png" alt="">
+        <ul>
+            <li class="header-list fl"><a href="list.html">男子</a></li>
+            <li class="header-list fl"><a href="list.html">女子</a></li>
+            <li class="header-list fl"><a href="list.html">男孩</a></li>
+            <li class="header-list fl"><a href="list.html">女孩</a></li>
+        </ul>
+        <span class="span1 fr">您现在的购物车是空的</span>
+        <span class="span2 fr"> <a href="login.html">登录</a> / <a href="register.html">注册</a> </span>
+        <form action="get" class="fr">
+            <input type="text" placeholder="搜索" class="search">
+        </form>
+        </div>
+</div>
+<div class="title">
+    <div class="title-middle">
+        注册新的账户
+    </div>
+</div>
+<div class="main">
+    <div class="main-middle">
+        <!-- <div class="login">
+            <div class="login-top">
+                <p class="login-para">登录</p>
+            <lable class="username">姓名</lable>
+            <input type="text" name="username1" id="username-ipt" class="login-item">
+            <lable class="pwd">密码</lable>
+            <input type="password" name="pwd1" id="pwd-ipt" class="login-item">
+            <button id="btn"><span>登录</span></button>
+            </div>
+            <div class="login-para1">
+                <p class="why">为什么注册?</p>
+                <ul>
+                    <li>- 获得新品上市信息和最新活动信息</li>
+                    <li>- 接收发货信息</li>
+                    <li>- 方便查阅订单状态</li>
+                    <li>- 管理您的收货和发票地址</li>
+                </ul>
+            </div>
+        </div> -->
+        <div class="register">
+            <p class="login-para">注册账户</p>
+            <lable class="username-re">姓名</lable>
+            <input type="text" name="username" id="username-re-ipt" class="register-item">
+            <lable class="pwd-re">密码</lable>
+            <input type="password" name="pwd" id="pwd-re-ipt" class="register-item">
+            <lable class="pwd-again-re">确认密码</lable>
+            <input type="password" name="repassword" id="pwd-again-re-ipt" class="register-item">
+            <div class="aaa">
+                <p class="alert">注册成功</p>
+                <span class="error">11</span>
+            </div>
+            <button id="btn1"><span>注册账户</span></button>
+            <a href="login.html" class="btn-a">
+                <span class="btn-span1">立即登录</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-top">
+        <div class="top-middle">
+            <!-- <span class="iconfont  icon-LC_icon_gps_line_2
+            "></span> -->
+            <span class="span-wen">查找店铺</span>
+            <!-- <span class="iconfont icon-aite"></span> -->
+            <span class="span-wen">订阅资讯</span>
+        </div>
+    </div>
+    <div class="footer-middle">
+        <div class="middle-middle clearfix">
+            <table class="fl">
+                <thead>
+                    <tr>
+                        <th>帮助中心</th>
+                        <th>我的订单</th>
+                        <th>关于NB</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>购买须知</td>
+                        <td>订单查询</td>
+                        <td>品牌故事</td>
+                    </tr>
+                    <tr>
+                        <td>配送及费用</td>
+                        <td>关于发票</td>
+                        <td>隐私政策</td>
+                    </tr>
+                    <tr>
+                        <td>支付方式</td>
+                        <td></td>
+                        <td>使用条款</td>
+                    </tr>
+                    <tr>
+                        <td>退货政策</td>
+                        <td></td>
+                        <td>Responsible Leadership</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="tab fl">
+                <p class="tab-p">保持联系</p>
+                <!-- <span class="iconfont icon-weixin"></span> -->
+                <!-- <span class="iconfont icon-weibo"></span> -->
+                <p class="tab-p1">
+                客服热线: <br>
+                800-820-2887(请使用固话拨打)<br>
+                400-890-2887(请使用手机拨打)<br>
+                电话服务时间:周一~周五9AM~6PM<br>
+                (节假日除外)<br>
+                在线服务时间:<br>
+                周—～周日<br>
+                9AM~10PM<br>
+                </p>    
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="bottom-middle">
+            <span>2019@ New Balance沪ICP备10207056号</span>
+            <img src="./img/beian-logo.png" alt="">
+            <span>沪公网安备31010502001622号</span> 
+            <p class="bottom-p">新百伦贸易（中国）有限公司旳上海市静安区南京西路688号688广场6楼
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+<!-- <script src="js/jquery-1.11.3.js"></script>
+<script>
+    $(function(){
+        // $("#btn").click(function(){
+        //     $.ajax({
+        //         type:"post",
+        //         url:"./php/login.php",
+        //         data:{
+        //             username:$(".login-item").eq(0).val(),
+        //             password:$(".login-item").eq(1).val(),
+        //         },
+        //         success:function(result){
+        //         //     var obj = JSON.parse(result)
+        //         //     if(obj.code){
+        //         //         $(".aaa").find(".alert").attr("class","b")
+        //         //     }else{
+        //         //         $(".aaa").find(".alert").attr("class","alert")
+        //         //     }
+        //         //     $(".aaa").show().html(obj.msg)
+        //         console.log(result)
+        //         },
+        //         error:function(msg){
+        //             console.log(msg)
+        //         }
+        //     })
+        // })
+        
+    }) -->
+</script>
+</html>
